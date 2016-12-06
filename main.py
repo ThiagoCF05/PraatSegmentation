@@ -53,9 +53,6 @@ if __name__ == '__main__':
 	parser.add_argument("dest", help="directory where the chunks should be written", type=str)
 	args = parser.parse_args()
 
-	read_dir = '/Users/thiagocastroferreira/Documents/R&A/data' # directory with the files to be read
-	write_dir = '/Users/thiagocastroferreira/Documents/R&A/results' # directory where the chunks should be written
-
 	read_dir = args.src
 	write_dir = args.dest
 
