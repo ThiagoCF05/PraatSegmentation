@@ -4,6 +4,6 @@ To segment a .wav file, run the following command:
 
 python main.py src dest
 
-"src" is the directory where the .wav and a .TextGrid files are. Both .wav and .TextGrid files should have the same name for a specific sound.
+"src" is the directory where the .wav and .TextGrid files are. Both .wav and .TextGrid files should have the same name for a specific audio.
 
 "dest" is the directory where the segmented chunks should be written. 
